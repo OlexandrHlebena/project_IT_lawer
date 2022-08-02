@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JS/action.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+            <div class="logo_wrapper">
+                <div class="adam">
+                    <img src="./photo/IMG_20220730_130309_adam.png">
+                </div>
+                <div class="logo">
+                    &lt_<span>IT</span><span>Lawer</span>&gt
+                </div>   
+                <div class="god">
+                    <img src="./photo/1659180694444_god.png">
+                </div> 
+        </div>
+        <div class="header_buttons">
+            <div class="contacts_header">
+                <button class="bilanguage" data-ua="Замовити онлайн консультацію" data-en="Order an online consultation"></button>
+            </div>
+            <div class="select_language">
+                <button type="button" class='bilanguage' onclick='changelang()' data-ua='Змінити мову' data-en='Change the language'></button>
+            </div>  
+        </div>
+    </div>
+    <div class="menu"> 
+        <button type="button" class="bilanguage" data-ua="ГОЛОВНА" data-en="MAIN" onclick="document.location='#main'"></button>
+        <button type="button" class="bilanguage" data-ua="ПРО НАС" data-en="ABOUT US" onclick="document.location='#about_us'"></button>
+        <button type="button" class="bilanguage" data-ua="ПОСЛУГИ" data-en="SERVICES" onclick="document.location='#services'"></button>
+        <button type="button" class="bilanguage" data-ua="КОНТАКТИ" data-en="CONTACTS" onclick="document.location='#contacts'"></button>
+    </div>
+    <div class="main" id="main"> 
+        <div class="information row1 box1 bilanguage" data-ua="На варті вашого ІТ-бізнесу" data-en="On a guard of your IT business">
+        </div>
+        <div class="sidebar row1 box2" >
+            <img src="https://static.wixstatic.com/media/9dbcad_4de14466a82c4221bc4659d8c9e7b03a~mv2.png/v1/fill/w_995,h_1059,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/%D1%83%D0%BA%D1%80%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F.png" alt="укрглавная.png" srcset="https://static.wixstatic.com/media/9dbcad_4de14466a82c4221bc4659d8c9e7b03a~mv2.png/v1/fill/w_995,h_1059,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/%D1%83%D0%BA%D1%80%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F.png" fetchpriority="high">
+        </div>
+        <div class="information row2 box3" id="about_us">
+            <img src="https://static.wixstatic.com/media/9dbcad_adb27a87b96c4cfda576cfbd40a2e61a~mv2.png/v1/fill/w_893,h_899,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/9dbcad_adb27a87b96c4cfda576cfbd40a2e61a~mv2.png" srcset="https://static.wixstatic.com/media/9dbcad_adb27a87b96c4cfda576cfbd40a2e61a~mv2.png/v1/fill/w_893,h_899,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/9dbcad_adb27a87b96c4cfda576cfbd40a2e61a~mv2.png" fetchpriority="high">
+        </div>
+        <div class="sidebar row2 box4">
+            <img src="https://static.wixstatic.com/media/9dbcad_71a5ff22ac8840d680b613d032a1acc7~mv2.png/v1/fill/w_360,h_443,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_71a5ff22ac8840d680b613d032a1acc7~mv2.png">
+            <div class="about_me">
+                <img src="https://static.wixstatic.com/media/9dbcad_7af1280cdd2f4a29b70edb47aea814e0~mv2.png/v1/fill/w_421,h_219,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_7af1280cdd2f4a29b70edb47aea814e0~mv2.png">
+                <div class="bilanguage my_name" data-ua="Олександр Глебена" data-en="Olexandr Hlebena"></div>
+                <ul>
+                    <li class="bilanguage" data-ua="Керуючий партнер &lt_ITLawer&gt" data-en="Мanaging partner of &lt_ITLawer&gt"></li>
+                    <li class="bilanguage" data-ua="Юрист та підприємець, інвестиційний аналітик" data-en="Lawyer and businessman, investment analyst"></li>
+                    <li class="bilanguage" data-ua="Чудово розумію потреби вашого проекту" data-en="Perfectly understand the needs of your project"></li>
+                    <li class="bilanguage" data-ua="Понад 1000 клієнтів" data-en="More than 1000 clients"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="information row3 box5" id="services">
+            <img src="https://static.wixstatic.com/media/9dbcad_53d84e7eaffc4a1db0ab68a562cbcbf4~mv2.png/v1/fill/w_834,h_339,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_53d84e7eaffc4a1db0ab68a562cbcbf4~mv2.png">
+            <div class="wrapper_for_services"> 
+                <div class="item1 header_box5 bilanguage" data-ua="Послуги" data-en="Services"></div>
+                <div class="item2 bilanguage" data-ua="Складання бізнес документів" data-en="Compilation of business documents"></div>
+                <div class="item3 bilanguage" data-ua="Реєстрація компанії за кордоном" data-en="Company registration abroad"></div>
+                <div class="item4 bilanguage" data-ua="Банківські рахунки
+                та платіжні системи" data-en="Bank accounts
+                and payment systems"></div>
+                <div class="item5 bilanguage" data-ua="Підготовка до GDPR
+                та CCPA" data-en="Preparation for GDPR
+                and the CCPA"></div>
+                <div class="item6 bilanguage" data-ua="Супровід
+                та захист бізнесу" data-en="Accompaniment
+                and business protection"></div>
+                <div class="item7 bilanguage" data-ua="Юридичний консалтинг" data-en="Legal consulting"></div>
+            </div>
+        </div>
+        <div class="row3 box6">
+            <div id="map"></div>
+        <script>
+            function initMap() {
+                var pos = {lat: 48.6365787, lng: 22.2857634}
+                var opt = {
+                    center: pos,
+                    zoom: 15
+                }
+                var map = new google.maps.Map(document.getElementById("map"), opt);
+
+                var marker = new google.maps.Marker({
+                    position: pos,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXbUw4iVKW8auydc3FmMQd27hJkamYITc&callback=initMap">
+        </script> 
+        </div>
+        <div class="footer" id="contacts">
+            <div class="links">
+                <ul class="xb9fU" aria-label="Панель соцмереж"><li id="dataItem-l3o5feof1-comp-l3o5feoe1" class="_3lu8e"><a data-testid="linkElement" href="https://www.instagram.com/icon.partners_official/" target="_blank" rel="noreferrer noopener" class="_26AQd"><wix-image id="img_0_comp-l3o5feoe1" class="_1-6YJ uWpzU" data-image-info="{&quot;containerId&quot;:&quot;dataItem-l3o5feof1-comp-l3o5feoe1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:108,&quot;height&quot;:108,&quot;uri&quot;:&quot;9dbcad_bd84953f118f47b7bdedf196176c2f1a~mv2.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-has-bg-scroll-effect="" data-bg-effect-name="" data-image-zoomed="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/9dbcad_bd84953f118f47b7bdedf196176c2f1a~mv2.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_bd84953f118f47b7bdedf196176c2f1a~mv2.png"><img alt="social-1" style="width: 39px; height: 39px; object-fit: cover;" src="https://static.wixstatic.com/media/9dbcad_bd84953f118f47b7bdedf196176c2f1a~mv2.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_bd84953f118f47b7bdedf196176c2f1a~mv2.png"></wix-image></a></li><li id="dataItem-l3o5feog-comp-l3o5feoe1" class="_3lu8e"><a data-testid="linkElement" href="https://www.facebook.com/icon.prtnrs/" target="_blank" rel="noreferrer noopener" class="_26AQd"><wix-image id="img_1_comp-l3o5feoe1" class="_1-6YJ uWpzU" data-image-info="{&quot;containerId&quot;:&quot;dataItem-l3o5feog-comp-l3o5feoe1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:108,&quot;height&quot;:108,&quot;uri&quot;:&quot;9dbcad_da1f20ab180444f9aecb4aba5586bfda~mv2.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-has-bg-scroll-effect="" data-bg-effect-name="" data-image-zoomed="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/9dbcad_da1f20ab180444f9aecb4aba5586bfda~mv2.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_da1f20ab180444f9aecb4aba5586bfda~mv2.png"><img alt="social" style="width: 39px; height: 39px; object-fit: cover;" src="https://static.wixstatic.com/media/9dbcad_da1f20ab180444f9aecb4aba5586bfda~mv2.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_da1f20ab180444f9aecb4aba5586bfda~mv2.png"></wix-image></a></li><li id="dataItem-l3o5feog2-comp-l3o5feoe1" class="_3lu8e"><a data-testid="linkElement" href="https://www.linkedin.com/company/pppp-ltd" target="_blank" rel="noreferrer noopener" class="_26AQd"><wix-image id="img_2_comp-l3o5feoe1" class="_1-6YJ uWpzU" data-image-info="{&quot;containerId&quot;:&quot;dataItem-l3o5feog2-comp-l3o5feoe1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:108,&quot;height&quot;:108,&quot;uri&quot;:&quot;9dbcad_b20bfc75d6ef4dbd907ec8eee9481cdf~mv2.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-has-bg-scroll-effect="" data-bg-effect-name="" data-image-zoomed="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/9dbcad_b20bfc75d6ef4dbd907ec8eee9481cdf~mv2.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_b20bfc75d6ef4dbd907ec8eee9481cdf~mv2.png"><img alt="social-2" style="width: 39px; height: 39px; object-fit: cover;" src="https://static.wixstatic.com/media/9dbcad_b20bfc75d6ef4dbd907ec8eee9481cdf~mv2.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9dbcad_b20bfc75d6ef4dbd907ec8eee9481cdf~mv2.png"></wix-image></a></li></ul>
+                <div class="phone">
+                    +380 68 603 3588 <br>
+                    +380 66 095 4240
+                </div>
+                <div class="email">
+                    alexander.hlebena@gmail.com <br>
+                    м.Ужгород, Закарпатська обл., Мальовнича 9/5
+                </div>
+            </div>
+        </div>
+    </div>
+       
+</body>
+</html> 
